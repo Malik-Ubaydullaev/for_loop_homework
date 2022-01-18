@@ -10,4 +10,7 @@ def main(n):
     for i in range(n):
         list1.append(i)
     stroka = str(list1)
-    return stroka[1:-1]
+    list2 = stroka[1:-1].split()
+    stroka2 = ''.join(list2)
+    return stroka2
+    
