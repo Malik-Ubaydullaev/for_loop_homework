@@ -9,6 +9,6 @@ def main(A,B):
     """
     list1 = []
     B += 1
-    for i in range(B):
+    for i in range(A, B):
         list1.append(i)
-    return list1[A::]
+    return list1
