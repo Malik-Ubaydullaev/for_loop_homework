@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    idx = 0
+    list2 = []
+    for i in list1:
+         list2.append(list1[idx].capitalize())
+         idx += 1
+    return list2
