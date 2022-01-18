@@ -6,4 +6,8 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    list1 = []
+    for i in range(1, 10):
+        list1.append(i*price)
+        
+    return list1
