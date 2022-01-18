@@ -11,5 +11,5 @@ def main(n):
     """
     list1 = []
     for i in range(n):
-        list.append(i) 
+        list1.append(i) 
     return list1
