@@ -7,4 +7,8 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    Sum = 0
+    i = A
+    for i in range(A,B):
+        Sum += i
+    return Sum
