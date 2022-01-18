@@ -6,7 +6,8 @@ def main(n):
     Returns:
         string: return  answer
     """
-    st = ''
+    list1 = []
     for i in range(n):
-        st += str(i)
-    return st
+        list1.append(i)
+    stroka = str(list1)
+    return stroka[1:-1]
